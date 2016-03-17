@@ -5,3 +5,15 @@ http:
   server: www.zenvault.com
   port: 80
   protocol: http
+
+---
+spring:
+  profiles: node1
+server:
+  port: 8201
+
+---
+spring:
+  profiles: node2
+server:
+  port: 8202
