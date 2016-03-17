@@ -1,6 +1,6 @@
 info:
-  description: Spring Cloud Samples
-  url: https://github.com/spring-cloud-samples
+  description: VBC Cloud
+  url: https://github.com/davidshue/vbc-cloud
 eureka:
   client:
     serviceUrl:
