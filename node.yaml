@@ -1,0 +1,7 @@
+server:
+  port: 8002
+http:
+  waittime: 200
+  server: www.zenvault.com
+  port: 80
+  protocol: http
