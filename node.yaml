@@ -9,11 +9,17 @@ http:
 ---
 spring:
   profiles: node1
+http:
+  server: 209.128.109.220
+  port: 22880
 server:
   port: 8201
 
 ---
 spring:
   profiles: node2
+http:
+  server: 209.128.109.220
+  port: 22980
 server:
   port: 8202
