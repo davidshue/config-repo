@@ -10,8 +10,8 @@ http:
 spring:
   profiles: node1
 http:
-  server: app1.zeronines.net
-  port: 22880
+  server: z9azure.cloudapp.net
+  port: 18080
 server:
   port: 8201
 
