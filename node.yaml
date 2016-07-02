@@ -23,3 +23,21 @@ http:
   port: 8080
 server:
   port: 8202
+
+---
+spring:
+  profiles: node3
+http:
+  server: z9azure2.cloudapp.net
+  port: 8080
+server:
+  port: 8203
+
+---
+spring:
+  profiles: node4
+http:
+  server: z9azure2.cloudapp.net
+  port: 18080
+server:
+  port: 8204
