@@ -1,0 +1,9 @@
+server:
+  port: 7000
+threadpool:
+  queue:
+    size:
+      core: 50
+      max: 100
+      capacity: 2000
+
