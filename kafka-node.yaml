@@ -5,6 +5,14 @@ http:
   server: www.zenvault.com
   port: 80
   protocol: http
+spring:
+  data:
+      mongodb:
+        authentication-database: vbc
+        database: vbc
+        host: localhost
+        username: z9user
+        password: password
 
 ---
 spring:
