@@ -20,12 +20,8 @@ hystrix:
   command:
     default:
       execution:
-        isolation:
-          strategy: SEMAPHORE
-          thread:
-            timeoutInMilliseconds: 1000
         timeout:
-          enabled: true
+          enabled: false
 http:
   waittime: 200
   server: www.zenvault.com
