@@ -13,6 +13,32 @@ spring:
         host: localhost
         username: z9user
         password: password
+kafka:
+  zookeeper: localhost:9092
+  group:
+    prefix: vbc-nodes
+  autocommit:
+    interval: 100
+  session:
+    timeout: 15000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 1000
+        timeout:
+          enabled: true
+http:
+  waittime: 200
+  server: www.zenvault.com
+  port: 80
+  protocol: http
+  revive:
+    urls: /j_spring_security_check, /enc
+    logout: /j_spring_security_logout
 
 ---
 spring:
