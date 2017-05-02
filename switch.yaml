@@ -6,4 +6,20 @@ threadpool:
       core: 50
       max: 100
       capacity: 2000
-
+proxy:
+  http:
+    port: 7009
+    backlog: 50
+  https:
+    port: 7443
+    backlog: 50
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 1000
+        timeout:
+          enabled: true
