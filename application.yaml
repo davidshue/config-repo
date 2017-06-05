@@ -3,7 +3,7 @@ info:
   url: https://github.com/davidshue/vbc-cloud
 eureka:
   instance:
-    hostname: vbc-server
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname:localhost}:8761/eureka/
