@@ -3,7 +3,7 @@ info:
   url: https://github.com/davidshue/vbc-cloud
 eureka:
   instance:
-    preferIpAddress: true
+#    preferIpAddress: true
     leaseRenewalIntervalInSeconds: 10
     statusPageUrlPath: /admin/info
     healthCheckUrlPath: /admin/health
