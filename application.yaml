@@ -16,3 +16,8 @@ logging:
   level:
     z9.cloud: 'DEBUG'
 
+spring:
+  cloud:
+    inetutils:
+      preferredNetworks:
+        - 10.0
