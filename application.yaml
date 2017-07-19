@@ -20,5 +20,5 @@ spring:
   cloud:
     inetutils:
       ignoredInterfaces:
-        - eth0
-        - eth1
+        - docker0
+        - veth.*
