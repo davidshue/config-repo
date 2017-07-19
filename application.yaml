@@ -19,5 +19,6 @@ logging:
 spring:
   cloud:
     inetutils:
-      preferredNetworks:
-        - eth2
+      ignoredInterfaces:
+        - eth0
+        - eth1
