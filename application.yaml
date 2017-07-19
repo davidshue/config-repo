@@ -20,4 +20,4 @@ spring:
   cloud:
     inetutils:
       preferredNetworks:
-        - 10.0
+        - eth2
