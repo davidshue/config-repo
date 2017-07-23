@@ -16,11 +16,11 @@ logging:
   level:
     z9.cloud: 'DEBUG'
 
+
+---
 spring:
+  profiles: swarm
   cloud:
     inetutils:
       preferredNetworks:
-        - '10.0'
-      ignoredInterfaces:
-        - docker0
-        - veth.*
+        - '100.0'
