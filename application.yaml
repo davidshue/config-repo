@@ -23,4 +23,4 @@ spring:
   cloud:
     inetutils:
       preferredNetworks:
-        - '100.0'
+        - '100.128'
