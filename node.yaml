@@ -33,7 +33,9 @@ http:
 
 ---
 spring:
-  profiles: node1
+  profiles:
+  - node1
+  - vbc-node-1
 http:
   server: appazure.zeronines.net
   port: 8080
@@ -42,7 +44,9 @@ server:
 
 ---
 spring:
-  profiles: node2
+  profiles:
+  - node2
+  - vbc-node-2
 http:
   server: appaws.zeronines.net
   port: 8080
@@ -51,7 +55,9 @@ server:
 
 ---
 spring:
-  profiles: node3
+  profiles:
+  - node3
+  - vbc-node-3
 http:
   server: z9azure2.cloudapp.net
   port: 8080
@@ -60,7 +66,9 @@ server:
 
 ---
 spring:
-  profiles: node4
+  profiles:
+  - node4
+  - vbc-node-4
 http:
   server: z9azure2.cloudapp.net
   port: 18080
