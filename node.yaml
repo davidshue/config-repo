@@ -39,6 +39,7 @@ spring:
 http:
   server: appazure.zeronines.net
   port: 8080
+server.port: 8101
 
 ---
 spring:
@@ -48,6 +49,7 @@ spring:
 http:
   server: appaws.zeronines.net
   port: 8080
+server.port: 8102
 
 ---
 spring:
@@ -57,6 +59,7 @@ spring:
 http:
   server: ec2-54-165-45-11.compute-1.amazonaws.com
   port: 8080
+server.port: 8103
 
 ---
 spring:
@@ -66,6 +69,7 @@ spring:
 http:
   server: zvsample.westus2.cloudapp.azure.com
   port: 8080
+server.port: 8104
 
 ---
 spring:
@@ -75,3 +79,4 @@ spring:
 http:
   server: ec2-54-208-152-144.compute-1.amazonaws.com
   port: 8080
+server.port: 8105
