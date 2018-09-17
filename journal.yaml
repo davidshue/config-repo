@@ -6,7 +6,7 @@ eureka:
     lease-expiration-duration-in-seconds: 15
 
 kafka:
-  zookeeper: vbc-kafka:9092
+  zookeeper: kafka-0.kafka:9093,kafka-1.kafka:9093,kafka-2.kafka:9093
   group:
     prefix: vbc-journal
   autocommit:
